@@ -33,7 +33,7 @@ pip install requests beautifulsoup4 tqdm yt-dlp
 
 Run the script from your terminal. The script is smart enough to detect if you want videos based on the arguments you provide.
 
-### 🖼 Scrape Images
+### Scrape Images
 
 Downloads all images from a webpage to the `images_download` folder.
 
@@ -42,7 +42,7 @@ python img_scrape.py https://example.com/gallery -o my_images
 
 ```
 
-### 🎥 Scrape Videos (Filtered)
+### Scrape Videos (Filtered)
 
 Downloads videos from a profile (e.g., Vimeo, YouTube) that match a specific keyword.
 *Note: The script automatically switches to Video Mode when `-k` is used.*
@@ -52,7 +52,7 @@ python img_scrape.py https://vimeo.com/user123 -k "Fashion"
 
 ```
 
-### 🔐 Authenticated Scraping (Private/Login-Walled Content)
+### Authenticated Scraping (Private/Login-Walled Content)
 
 If a site requires you to be logged in (e.g., private Vimeo videos, Instagram, age-gated content), you must provide your browser cookies.
 
@@ -66,7 +66,7 @@ python img_scrape.py https://vimeo.com/user123 -k "Internal Review"
 
 ```
 
-### 🔄 Scrape Everything (Images & Video)
+### Scrape Everything (Images & Video)
 
 Force the script to check for both images and video content.
 
